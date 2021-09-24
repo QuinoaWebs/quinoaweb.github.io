@@ -386,7 +386,7 @@ main {
   position: fixed;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 70%;
   min-height: 100vh;
   z-index: 10;
   -webkit-transform: translateX(100%);
