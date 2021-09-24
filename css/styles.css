@@ -400,6 +400,7 @@ main {
 .main-nav--show {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+          width: 70%;
 }
 
 .main-menu {
