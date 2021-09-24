@@ -157,6 +157,8 @@ main {
 .sobre-mi{
   padding-top: 50px;
 }
+
+
 .cards {
   display: -ms-grid;
   display: grid;
@@ -401,6 +403,8 @@ main {
   -webkit-transform: translateX(0);
           transform: translateX(0);
           width: 70%;
+          transform: translateY(109px);
+          z-index: 200;
 }
 
 .main-menu {
@@ -525,3 +529,16 @@ main {
   min-width: 150px;
   cursor: pointer;
 }
+
+@media  screen and (min-width:600px) {
+
+  .servicios,.sobre-mi,.contacto,.proyectos{
+    padding-top: 85px;
+  }
+
+  .banner{
+    top: 20px;
+  }
+  
+}
+

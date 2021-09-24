@@ -5,12 +5,14 @@ const headerElement = document.getElementById('header');
 const mainElement = document.getElementById('main');
 
 
+
 toggleMenu.addEventListener('click', () => {
   toggleBar.classList.toggle('active');
   mainNav.classList.toggle('main-nav--show');
   header.classList.toggle('blur');
   main.classList.toggle('blur');
   document.body.classList.toggle('no-scroll');
+
 });
 
 mainNav.addEventListener("click", (e)=> {
