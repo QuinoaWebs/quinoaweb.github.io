@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Potfolio</title>
+  </head>
+  <body>
+    <nav class="main-nav" id="main-nav"> 
+      <ul class="main-menu" id="main-menu">
+        <li class="main-menu__item"><a class="main-menu__link" href="#sobreMi" data-number="01.">Sobre mí</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="#proyectos" data-number="02.">Proyectos</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="#servicios" data-number="03.">Servicios</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="#contactar" data-number="04.">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="top-bar">
+      <img class="logo" src="assets/images/Quinoa Web.jpg" alt="logo">
+      <div class="toggle" id="toggle-menu">
+        <div class="toggle__bar" id="toggle-bar"></div>
+      </div>
+    </div>
+    <header class="header" id="header">
+      <div class="banner">
+        <p class="text-green">Hola, mi nombres es...</p>
+        <h1 class="text-lightest">QuinoaWeb</h1>
+        <p class="big-heading">Desarrollador web freelance</p>
+        <p class="text"></p>
+      </div>
+    </header>
+    <main id="main">
+      <section id="sobreMi" class="sobre-mi">
+
+        <div class="title-container"> 
+          <h2 class="title" data-number="01.">Conóceme</h2>
+        </div>
+      </section>
+      <article class="article">
+        <p class="text">Como has podido ver mi nombre es QuinoaWeb y me encanta la programación. Soy una persona que disfruta aprendiendo cosas nuevas e investigando sobre esa materia que deseo aprender.Mi primera aproximación al desarrollo fué realizando un curso de Excell, donde entre otras cosas se hacía una introducción al lenguaje VBA, aquello despertó mi curiosidad por la programación, primero por ese lenguaje (VBA) y mas tarde por el desarrollo web (html5). Siempre de forma autodidacta he ido formandome en esta materia y adquiriendo los conocimentos que tengo a día de hoy. </p>
+        <ul class="list"> 
+          <li class="list__item">JavaScript</li>
+          <li class="list__item">React</li>
+          <li class="list__item">Node.js</li>
+          <li class="list__item">Wordpress</li>
+          <!-- <li class="list__item">Node.js</li>
+          <li class="list__item">WordPress</li> -->
+        </ul>
+        <section id="proyectos" class="proyectos">
+          <div class="title-container"> 
+            <h2 class="title" data-number="02.">Proyectos</h2>
+          </div>
+        </section>
+        <section class="cards">
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="/onePageScroll/">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="https://github.com/QuinoaWebs/bofen_asesores.git">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">PELIS</h3>
+              <img src="/assets/images/pelis.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">App buscador de películas con conexión a Api.</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Html5</li>
+                <li class="tags__item">LocalStorage</li>
+                <li class="tags__item">SessionStorage</li>
+                <li class="tags__item">Api</li>
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Dono</h3>
+              <img src="/assets/images/dono.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">Sitio web de tematica restaurante moderno</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Wordpress</li>
+                <li class="tags__item">Elementor Page Builder</li>
+                <!-- <li class="tags__item">SessionStorage</li>
+                <li class="tags__item">Api</li>  -->
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Moda-app</h3>
+              <img src="/assets/images/moda-app.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">SPA de tematica manualidades.</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Html5</li>
+                <li class="tags__item">Node.js</li>
+                <li class="tags__item">React.js</li>
+                <!-- <li class="tags__item">Api</li> -->
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Tareas-app</h3>
+              <img src="/assets/images/tareas-app.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">Aplicación de tareas.</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Html5</li>
+                <li class="tags__item">Bootstrap</li>
+                <li class="tags__item">Node.js</li>
+                <li class="tags__item">MongoDb</li>
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Tienda</h3>
+              <img src="/assets/images/tienda.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">Sitio web de tematica supermercado.</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Wordpress</li>
+                <li class="tags__item">Woocommerce</li>
+                <!-- <li class="tags__item">SessionStorage</li>
+                <li class="tags__item">Api</li> -->
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Vofen asesores</h3>
+              <img src="/assets/images/vofen asesores.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">Sitio web tematica "Crud".</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Html5</li>
+                <li class="tags__item">LocalStorage</li>
+                <li class="tags__item">SessionStorage</li>
+                <!-- <li class="tags__item">Api</li> -->
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Web</h3>
+              <img src="/assets/images/web.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">Sitio web tematica tienda de muebles.</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Html5</li>
+                <li class="tags__item">LocalStorage</li>
+                <li class="tags__item">SessionStorage</li>
+                <!-- <li class="tags__item">Api</li> -->
+              </ul>
+            </footer>
+          </article>
+      
+        
+        
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <a class="card__icon" href="#">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+                </a>
+
+              </div>
+              <a class="card__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">Wordpress</h3>
+              <img src="/assets/images/wordpress.png" class="card__img" alt="imagen de proyecto">
+              <p class="card__text">Sitio web de tematica asesoria.</p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">Wordpress</li>
+                <li class="tags__item">Elementor Page Builder</li>
+                <!-- <li class="tags__item">SessionStorage</li>
+                <li class="tags__item">Api</li> -->
+              </ul>
+            </footer>
+          </article>
+      
+        </section>
+
+        <section id="servicios" class="servicios">
+          <div class="title-container"> 
+            <h2 class="title" data-number="03.">Mis servicios</h2>
+          </div>
+        </section>
+        <section class="mis-servicios">  
+          <div class="cards">
+
+            <article class="card card__servicios">
+              <header class="card__header">
+                <div class="card__icon">
+                  <!-- <a class="card__icon" href="#">
+  
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+  
+                  </a> -->
+  
+                </div>
+                <!-- <a class="card__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a> -->
+              </header>
+              <div class="card__body">
+                <img src="/assets/images/svg-2.svg" class="card__img__servicios" alt="imagen de proyecto">
+
+                <h3 class="card__title__servicios card__title">Diseño de páginas web.</h3>
+                <p class="card__text__servicios">Diseño actualizado. Para que tu web siempre este a la última.</p>
+              </div>
+              <footer class="card__footer">
+                <ul class="tags">
+                  <li class="tags__item"></li>
+                  <li class="tags__item"></li>
+                  <!-- <li class="tags__item">SessionStorage</li>
+                  <li class="tags__item">Api</li> -->
+                </ul>
+              </footer>
+            </article>
+            <article class="card card__servicios">
+              <header class="card__header">
+                <div class="card__icon">
+                  <!-- <a class="card__icon" href="#">
+  
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+  
+                  </a> -->
+  
+                </div>
+                <!-- <a class="card__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a> -->
+              </header>
+              <div class="card__body">
+                <img src="/assets/images/svg-1.svg" class="card__img__servicios" alt="imagen de proyecto">
+
+                <h3 class="card__title__servicios card__title">Desarrollo de sitios web.</h3>
+                <p class="card__text__servicios">Desarrollo límpio y agradáble. Tus clientes disfrutarán la web.</p>
+              </div>
+              <footer class="card__footer">
+                <ul class="tags">
+                  <li class="tags__item"></li>
+                  <li class="tags__item"></li>
+                  <!-- <li class="tags__item">SessionStorage</li>
+                  <li class="tags__item">Api</li> -->
+                </ul>
+              </footer>
+            </article>
+            <article class="card card__servicios">
+              <header class="card__header">
+                <div class="card__icon">
+                  <!-- <a class="card__icon" href="#">
+  
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Web</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+  
+                  </a> -->
+  
+                </div>
+                <!-- <a class="card__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Github</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a> -->
+              </header>
+              <div class="card__body">
+                <img src="/assets/images/svg-3.svg" class="card__img__servicios" alt="imagen de proyecto">
+
+                <h3 class="card__title__servicios card__title">Seo.</h3>
+                <p class="card__text__servicios">El mejor posicionamiento en buscadores.Haz amistad con Google!</p>
+              </div>
+              <footer class="card__footer">
+                <ul class="tags">
+                  <li class="tags__item"></li>
+                  <li class="tags__item"></li>
+                  <!-- <li class="tags__item">SessionStorage</li>
+                  <li class="tags__item">Api</li> -->
+                </ul>
+              </footer>
+            </article>
+
+          
+
+          </div>
+
+        </section>
+
+        <section id="contactar" class="contacto">
+          <div class="title-container"> 
+            <h2 class="title" data-number="04.">Hablamos?</h2>
+          </div>
+        </section>
+
+        <section class="contactar">
+          <form action="" class="formulario">
+            <div class="formulario__nombre">
+              <label for="nombre">Nombre:</label>
+              <input type="text" />
+
+            </div>
+            <div class="formulario__email">
+              <label for="email">Email:</label>
+              <input type="email" name="" id="" />
+
+            </div>
+            <textarea name="" class="formulario__textarea" id="" cols="30" rows="10" placeholder="Cuéntame qué necesitas"></textarea>
+            <div class="btn__formulario">
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Borrar Datos">
+            </div>
+          </form>
+
+        </section>
+      </article>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
